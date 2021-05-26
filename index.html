@@ -20,7 +20,7 @@
                 <div class="alert alert-danger" role="alert">
                     Some Fields are missing.
                 </div>
-                <form class="">
+                <form class="row">
                     <div class="col-5">
                         <label for="inputcard#" class="form-label">Card #</label>
                         <input type="card#" class="form-control" id="exampleInputCard#" aria-describedby="Card#Help">
@@ -33,33 +33,57 @@
                         <label for="Amount" class="form-label">Amount</label>
                         <input type="Amount" class="form-control" id="Amount" aria-describedby="Amount">
                     </div>
-                    <div class="row g-3">
+                </form>
+            </div>
+            <div class="m-3">
+                <form class="row">
+                    <div class="col-6">
                         <label for="firstname" class="form-label">First Name</label>
                         <input type="firstname" class="form-control" id="firstname" aria-describedby="firstname">
                     </div>
-                    <div class="row g-3">
-                        <label for="lastname" class="form-label">Last Name</label>
+                    <div class="col-6">
+                        <label for="lastname" class="form-label"> Last Name</label>
                         <input type="lastname" class="form-control" id="lastname" aria-describedby="lastname">
                     </div>
-                    <div class="row g-3">
+                </form>
+            </div>
+            <div class="m-3">
+                <form class="row">
+                    <div class="col-6">
                         <label for="city" class="form-label">City</label>
                         <input type="city" class="form-control" id="city" aria-describedby="city">
                     </div>
-                    <div class=" row g-3">
-                        <div class="col-md">
-                            <label for="state" class="form-label">State</label>
-                            <select class="form-select">
-                                <option selected>Choose...</option>
-                                <option>California</option>
-                                <option>New York</option>
-                                <option>Florida</option>
-                                <option>Colorado</option>
-                            </select>
-                        </div>
+                    <div class="col-3">
+                        <label for="state" class="form-label">State</label>
+                        <select class="form-select">
+                            <option selected>Choose...</option>
+                            <option>California</option>
+                            <option>New York</option>
+                            <option>Florida</option>
+                            <option>Colorado</option>
+                        </select>
+                    </div>
+                    <div class="col-3">
+                        <label for="postalcode" class="form-label">Postal Code</label>
+                        <input type="postalcode" class="form-control" id="postalcode" aria-describedby="postalcode">
+                    </div>
+                </form>
+            </div>
+            <div class="m-3">
+                <form class="row">
+                    <div class="col-6">
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here"
+                            id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Comments</label>
+                    </div>
                     </div>
                 </form>
             </div>
         </div>
+        </form>
+    </div>
+    </div>
     </div>
 </body>
 
