@@ -7,6 +7,8 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/773de9e511.js" crossorigin="anonymous"></script>
+
     <title>Document</title>
 </head>
 
@@ -69,34 +71,36 @@
                     </div>
                 </form>
             </div>
-            <!-- <div class="m-3"> -->
-                <div class="row"><label for="row-1">We Accept</label>
-                    <div class="col-3 form-control">
+            <div class="m-3">
+                <form class="row">
+                    <label for="row">We Accept</label>
+                    <div class="form-control-md col-3">
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
                                 value="option1">
-                            <label class="form-check-label" for="inlineRadio1">1</label>
+                            <label class="form-check-label" for="inlineRadio1"><i class="fab fa-cc-visa"></i></label>
                         </div>
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
                                 value="option2">
-                            <label class="form-check-label" for="inlineRadio2">2</label>
+                            <label class="form-check-label" for="inlineRadio2"><i class="fab fa-cc-mastercard"></i></label>
                         </div>
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
-                                value="option3" disabled>
-                            <label class="form-check-label" for="inlineRadio3">3</label>
+                                value="option3">
+                            <label class="form-check-label" for="inlineRadio3"><i class="fab fa-cc-amex"></i></label>
                         </div>
                     </div>
                     <div class="col-3"></div>
-                    <div class="col-6"><label for="form-floating">Message</label>
+                    <div class="col-6">
+                        <label for="form-floating">Message</label>
                         <div class="form-floating">
-                            <textarea class="form-control" id="floatingTextarea"></textarea> Add any notes here.
+                            <textarea class="form-control" id="floatingTextarea"></textarea>
                             <!-- <label for="floatingTextarea">Comments</label> -->
                         </div>
                     </div>
-                </div>
-            <!-- </div> -->
+                <!-- </div> -->
+                </form>
         </div>
         </form>
     </div>
