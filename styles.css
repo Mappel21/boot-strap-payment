@@ -1,4 +1,4 @@
-.hello{
+/* .hello{
     color: red;
 }
 .next{
@@ -6,4 +6,7 @@ margin-left: 30px;
 }
 .third{
 margin-top: 100px;
+} */
+body{
+    padding-top: 50px;
 }
